@@ -27,7 +27,9 @@ class my_csdn(object):
     
 if __name__ == "__main__":
     url = 'https://blog.csdn.net/weixin_40748006/article/list/1'
+    url1 = 'https://blog.csdn.net/weixin_40748006/article/list/2'
     c = my_csdn()
     c.print_csdn(url)
+    c.print_csdn(url1)
     
     
